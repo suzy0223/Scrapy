@@ -3,7 +3,7 @@
 #filename:douban.py
 #get the thumbnail of the book of literature
 #Date:11-28-2016
-
+#该程序在Linux Ubuntu上运行，需要下载安装相关驱动
 import socket
 import threading
 import urllib
