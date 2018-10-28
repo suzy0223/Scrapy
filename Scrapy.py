@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import time
 import os
 
+#这里填要爬取网页的网址
 source_url = "https://91baby.mama.cn/thread-1505059-1-1.html?so_param=5LiN6KaB54mp56eN5q2n6KeGfGJhYnk5MV8xNTA1MDU5fDF8MXwxOQ=="
 
 browser = webdriver.Chrome()
@@ -44,7 +45,7 @@ h = getPage(source_url)
 browser.close()
 
 try:
-    fo = open("不要物种歧视.txt","a")
+    fo = open("不要物种歧视.txt","a")#存储为“小说名称.txt"
 except:
     os.mkdir("不要物种歧视.txt")
 
